@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro",
+    "description": "A Google extension that assists you with sticking to the Pomodoro method by blocking social medias",
+    "version": "1.0",
+    "action": {
+      "default_popup": "login.html",
+      "default_icon": "testIcon.png"
+    }
+  }
