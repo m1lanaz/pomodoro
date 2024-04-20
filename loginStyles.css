@@ -4,4 +4,53 @@ h2{
 
 body{
     text-align: center;
+    background-color: #C7D59F;
+}
+
+.outerDiv{
+    width: 350px;
+    margin: 20px 0px 20px 0px;
+}
+
+/* Remove default input styles */
+input.styledInput {
+    border: none;
+    border-bottom: 1px solid #4B5842; /* Add bottom border */
+    outline: none; /* Remove outline */
+    color: #3a3a3a;
+    background-color: #C7D59F;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.usernameSection{
+    margin-bottom: 15px;
+}
+
+.forgottenPasswordSection a{
+    color: #4B5842;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.forgottenPasswordSection{
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+svg{
+    color: #4B5842;
+    margin-bottom: -5px;
+}
+
+button{
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    border: #4B5842;
+    background-color: #4B5842;
+    color: #DADDD8;
+    font-size: 16px;
+    font-weight: 200;
 }
